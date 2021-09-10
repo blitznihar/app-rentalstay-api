@@ -1,3 +1,4 @@
+[![CircleCI](https://circleci.com/gh/blitznihar/app-rentalstay-api/tree/master.svg?style=svg)](https://circleci.com/gh/blitznihar/app-rentalstay-api/tree/master)
 # tryaop
 ### Mutiple small poc embedded
 
