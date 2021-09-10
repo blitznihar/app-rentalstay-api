@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Test;
  import java.util.ArrayList;
  import org.springframework.boot.test.mock.mockito.MockBean;
  import com.blitz.airbnb.apprentalstayapi.entities.RentalProperty;
+import com.blitz.airbnb.apprentalstayapi.repositories.RentalPropertyRepository;
 import com.blitz.airbnb.apprentalstayapi.services.RentalPropertyService;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -21,6 +22,9 @@ public class RentalPropertyControllerTest {
 
 	 @MockBean
 	 private RentalPropertyService rentalPropertyService;
+
+	 @MockBean
+	 private RentalPropertyRepository rentalPropertyRepository;
 
 	 @Mock
 	 private ArrayList<RentalProperty> mockRentalPropertyList;
