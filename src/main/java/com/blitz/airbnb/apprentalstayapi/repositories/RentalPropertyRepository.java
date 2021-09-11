@@ -6,8 +6,5 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface RentalPropertyRepository extends MongoRepository<RentalProperty,String> {
-
-    Object getRentalPropertyAll();
-    
+public interface RentalPropertyRepository extends MongoRepository<RentalProperty,String> {   
 }
